@@ -1,10 +1,23 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_Registros',
+const CACHE_NAME = 'v2_Registros',
   urlsToCache = [
     './',
-    './css/style.css',
-    './script.js'
+    'index.html',
+    'cart_items.html',
+    'style.css',
+    'main.js',
+    'script.js',
+    'manifest.json',
+    'https://unpkg.com/dexie@latest/dist/dexie.js',
+    'cart.js',
+    'cartUI.js',
+    'connection.js',
+    'products.js',
+    'cake.jpg',
+    'chocolate.jpg',
+    'dulce.jpg',
+    'sanwich.jpg'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
